@@ -1,0 +1,107 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    min-height:100vh;
+    background:linear-gradient(135deg,#060b23,#0b1745,#13082f);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:30px;
+    color:white;
+}
+
+.container{
+    width:100%;
+    max-width:430px;
+    text-align:center;
+}
+
+.logo{
+    width:90px;
+    height:90px;
+    margin:0 auto 20px;
+    border-radius:50%;
+    background:linear-gradient(135deg,#00d4ff,#7b2cff,#ff9800);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:34px;
+    font-weight:700;
+    box-shadow:0 0 25px rgba(0,212,255,.5);
+}
+
+h1{
+    font-size:30px;
+    margin-bottom:6px;
+}
+
+.subtitle{
+    color:#b9c6ff;
+    margin-bottom:25px;
+}
+
+.card{
+    background:rgba(255,255,255,.08);
+    backdrop-filter:blur(16px);
+    border:1px solid rgba(255,255,255,.15);
+    border-radius:25px;
+    padding:25px;
+    box-shadow:0 20px 40px rgba(0,0,0,.4);
+}
+
+.button{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-decoration:none;
+    color:#fff;
+    font-weight:600;
+    font-size:18px;
+    padding:18px;
+    border-radius:16px;
+    margin:14px 0;
+    transition:.25s ease;
+}
+
+.button:hover{
+    transform:translateY(-3px) scale(1.02);
+}
+
+.save{
+    background:#00b894;
+}
+
+.call{
+    background:#0984e3;
+}
+
+.whatsapp{
+    background:#25D366;
+}
+
+.phonepe{
+    background:#6c2bd9;
+}
+
+.gpay{
+    background:#1a73e8;
+}
+
+.location{
+    background:#ff9800;
+}
+
+.email{
+    background:#e53935;
+}
+
+.footer{
+    margin-top:25px;
+    color:#b9c6ff;
+    font-size:14px;
+}
