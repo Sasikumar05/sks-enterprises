@@ -40,6 +40,9 @@ body{
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
+    color: white !important;
+    font-size: 18px !important;
+    font-weight: 600 !important;
 }
 
 h1{
